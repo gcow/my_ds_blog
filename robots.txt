@@ -1,1 +1,1 @@
-Sitemap: https://gcow.github.io/sitemap.xml
+Sitemap: https://gcow.github.io/blog/sitemap.xml

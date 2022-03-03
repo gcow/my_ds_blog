@@ -321,8 +321,6 @@ table td { border: 1px solid #e8e8e8; }
 /** Grid helpers */
 @media screen and (min-width: 1200px) { .one-half { width: calc(50% - (30px / 2)); } }
 
-/*-----------------------------------*/
-/*--- IMPORT STYLES FOR FASTPAGES ---*/
 .post img { display: block; vertical-align: top; margin-left: auto; margin-right: auto; }
 
 img.emoji { display: inline !important; vertical-align: baseline !important; }
@@ -427,8 +425,6 @@ pre code { font-size: 15px !important; }
 
 .youtube-iframe-wrapper iframe, .youtube-iframe-wrapper object, .youtube-iframe-wrapper embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-/*-----------------------------------*/
-/*----- ADD YOUR STYLES BELOW -------*/
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
 [class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
@@ -483,5 +479,35 @@ pre code { font-size: 15px !important; }
 .highlight .gd { color: #ff5555; }
 
 p code { font-size: 19px; }
+
+.wrapper { width: 90% !important; max-width: 90% !important; }
+
+a, a:visited { color: #ca6328 !important; }
+
+a.nostyle, a.nostyle:hover, a.nostyle:focus, a.nostyle:active { text-decoration: none !important; color: #000 !important; }
+
+.site-header { padding: 5px !important; border-top: none !important; background-color: #ca6328; }
+
+.site-header { position: -webkit-sticky; position: sticky; top: 0; z-index: 9999; }
+
+.site-nav { background-color: #ca6328; }
+
+.site-nav .page-link .top-menu-text { color: #ffffff; }
+
+.site-footer { padding: 5px 0; background-color: #ca6328; }
+
+.footer-col-wrapper { color: #ffffff !important; }
+
+.feed-subscribe a span { color: #ffffff !important; }
+
+.social-media-list li a, .pagination li a { background-color: #e8e8e8; border: black solid thin !important; }
+
+.social-media-list li a.fa-icon, .pagination li a.fa-icon { width: 42px; height: 42px; text-align: center; }
+
+.social-media-list li a.fa-icon i.far, .pagination li a.fa-icon i.far { color: #828282 !important; }
+
+@media only screen and (max-width: 620px) { /* For mobile phones: */ .mobile-hide { display: none !important; } }
+
+@media only screen and (min-width: 620px) { /* For mobile phones: */ .desktop-hide { display: none !important; } }
 
 /*# sourceMappingURL=style.css.map */
